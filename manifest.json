@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "华科智课连播",
+  "version": "1.2.3",
+  "description": "华科智课自动2倍速连播，保留播放器音量设置，章节测验留待手动作答。",
+  "content_scripts": [
+    {
+      "matches": ["https://smartcourse.hust.edu.cn/mooc-smartcourse/mycourse/studentstudy*"],
+      "js": ["autoplay.js"],
+      "css": ["autoplay.css"]
+    }
+  ]
+}

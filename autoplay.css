@@ -1,0 +1,24 @@
+#hust-course-autoplay-toggle {
+  position: fixed;
+  bottom: 22px;
+  left: 72px;
+  z-index: 9999;
+  padding: 8px 14px;
+  border: 1px solid #6d819c;
+  border-radius: 8px;
+  background: #263c56;
+  color: #fff;
+  font: 14px/1.4 system-ui, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 6px #0002;
+}
+
+#hust-course-autoplay-toggle[aria-pressed="true"] {
+  background: #18594f;
+  border-color: #308778;
+}
+
+#hust-course-autoplay-toggle:focus-visible {
+  outline: 3px solid #61afff;
+  outline-offset: 2px;
+}
